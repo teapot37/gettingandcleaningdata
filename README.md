@@ -1,5 +1,6 @@
 # How to use run_analysis.R
 This script assumes that the Samsung data directory is in your working directory.
+The script takes no parameters.
 The following files should exist inside that directory:
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/Y_test.txt
