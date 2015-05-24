@@ -1,0 +1,345 @@
+1) subject
+
+  A unique integer number identifying the subject providing the data
+
+2) activity
+
+  A string describing the activity being performed while the data was being collected.
+  The possible values are:
+
+    WALKING
+    WALKING_UPSTAIRS
+    WALKING_DOWNSTAIRS
+    SITTING
+    STANDING
+    LAYING
+
+3) TimeBodyAcceleration_mean_X
+
+  This value is the mean of the body linear acceleration data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+4) TimeBodyAcceleration_mean_Y
+
+  This value is the mean of the body linear acceleration data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+5) TimeBodyAcceleration_mean_Z
+
+  This value is the mean of the body linear acceleration data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+6) TimeBodyAcceleration_std_X
+
+  This value is the standard deviation of the body linear acceleration data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+7) TimeBodyAcceleration_std_Y
+
+  This value is the standard deviation of the body linear acceleration data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+8) TimeBodyAcceleration_std_Z
+
+  This value is the standard deviation of the body linear acceleration data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+9) TimeGravityAcceleration_mean_X
+
+  This value is the mean of the gravity linear acceleration data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+10) TimeGravityAcceleration_mean_Y
+
+  This value is the mean of the gravity linear acceleration data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+11) TimeGravityAcceleration_mean_Z
+
+  This value is the mean of the gravity linear acceleration data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+12) TimeGravityAcceleration_std_X
+
+  This value is the standard deviation of the gravity linear acceleration data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+13) TimeGravityAcceleration_std_Y
+
+  This value is the standard deviation of the gravity linear acceleration data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+14) TimeGravityAcceleration_std_Z
+
+  This value is the standard deviation of the gravity linear acceleration data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+15) TimeBodyAccelerationJerk_mean_X
+
+  This value is the mean of the body linear acceleration jerk data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+16) TimeBodyAccelerationJerk_mean_Y
+
+  This value is the mean of the body linear acceleration jerk data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+17) TimeBodyAccelerationJerk_mean_Z
+
+  This value is the mean of the body linear acceleration jerk data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+18) TimeBodyAccelerationJerk_std_X
+
+  This value is the standard deviation of the body linear acceleration jerk data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+19) TimeBodyAccelerationJerk_std_Y
+
+  This value is the standard deviation of the body linear acceleration jerk data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+20) TimeBodyAccelerationJerk_std_Z
+
+  This value is the standard deviation of the body linear acceleration jerk data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+21) TimeBodyGyroscope_mean_X
+
+  This value is the mean of the body gyroscope data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+22) TimeBodyGyroscope_mean_Y
+
+  This value is the mean of the body gyroscope data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+23) TimeBodyGyroscope_mean_Z
+
+  This value is the mean of the body gyroscope data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+24) TimeBodyGyroscope_std_X
+
+  This value is the standard deviation of the body gyroscope data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+25) TimeBodyGyroscope_std_Y
+
+  This value is the standard deviation of the body gyroscope data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+26) TimeBodyGyroscope_std_Z
+
+  This value is the standard deviation of the body gyroscope data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+27) TimeBodyGyroscopeJerk_mean_X
+
+  This value is the mean of the body gyroscope jerk data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+28) TimeBodyGyroscopeJerk_mean_Y
+
+  This value is the mean of the body gyroscope jerk data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+29) TimeBodyGyroscopeJerk_mean_Z
+
+  This value is the mean of the body gyroscope jerk data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+30) TimeBodyGyroscopeJerk_std_X
+
+  This value is the standard deviation of the body gyroscope jerk data along the X axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+31) TimeBodyGyroscopeJerk_std_Y
+
+  This value is the standard deviation of the body gyroscope jerk data along the Y axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+32) TimeBodyGyroscopeJerk_std_Z
+
+  This value is the standard deviation of the body gyroscope jerk data along the Z axis in the time domain.
+  The number has been normalized to the range [-1,1].
+
+33) TimeBodyAccelerationMagnitude_mean
+
+  This value is the mean of the magnitude of the body acceleration data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+34) TimeBodyAccelerationMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body acceleration data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+35) TimeGravityAccelerationMagnitude_mean
+
+  This value is the mean of the magnitude of the gravity acceleration data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+36) TimeGravityAccelerationMagnitude_std
+
+  This value is the standard deviation of the magnitude of the gravity acceleration data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+37) TimeBodyAccelerationJerkMagnitude_mean
+
+  This value is the mean of the magnitude of the body acceleration jerk data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+38) TimeBodyAccelerationJerkMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body acceleration jerk data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+39) TimeBodyGyroscopeMagnitude_mean
+
+  This value is the mean of the magnitude of the body gyroscope data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+40) TimeBodyGyroscopeMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body gyroscope data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+41) TimeBodyGyroscopeJerkMagnitude_mean
+
+  This value is the mean of the magnitude of the body gyroscope jerk data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+42) TimeBodyGyroscopeJerkMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body gyroscope jerk data in the time domain.
+  The number has been normalized to the range [-1,1].
+
+43) FrequencyBodyAcceleration_mean_X
+
+  This value is the mean of the body linear acceleration data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+44) FrequencyBodyAcceleration_mean_Y
+
+  This value is the mean of the body linear acceleration data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+45) FrequencyBodyAcceleration_mean_Z
+
+  This value is the mean of the body linear acceleration data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+46) FrequencyBodyAcceleration_std_X
+
+  This value is the standard deviation of the body linear acceleration data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+47) FrequencyBodyAcceleration_std_Y
+
+  This value is the standard deviation of the body linear acceleration data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+48) FrequencyBodyAcceleration_std_Z
+
+  This value is the standard deviation of the body linear acceleration data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+49) FrequencyBodyAccelerationJerk_mean_X
+
+  This value is the mean of the body linear acceleration jerk data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+50) FrequencyBodyAccelerationJerk_mean_Y
+
+  This value is the mean of the body linear acceleration jerk data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+51) FrequencyBodyAccelerationJerk_mean_Z
+
+  This value is the mean of the body linear acceleration jerk data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+52) FrequencyBodyAccelerationJerk_std_X
+
+  This value is the standard deviation of the body linear acceleration jerk data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+53) FrequencyBodyAccelerationJerk_std_Y
+
+  This value is the standard deviation of the body linear acceleration jerk data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+54) FrequencyBodyAccelerationJerk_std_Z
+
+  This value is the standard deviation of the body linear acceleration jerk data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+55) FrequencyBodyGyroscope_mean_X
+
+  This value is the mean of the body gyroscope data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+56) FrequencyBodyGyroscope_mean_Y
+
+  This value is the mean of the body gyroscope data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+57) FrequencyBodyGyroscope_mean_Z
+
+  This value is the mean of the body gyroscope data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+58) FrequencyBodyGyroscope_std_X
+
+  This value is the standard deviation of the body gyroscope data along the X axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+59) FrequencyBodyGyroscope_std_Y
+
+  This value is the standard deviation of the body gyroscope data along the Y axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+60) FrequencyBodyGyroscope_std_Z
+
+  This value is the standard deviation of the body gyroscope data along the Z axis in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+61) FrequencyBodyAccelerationMagnitude_mean
+
+  This value is the mean of the magnitude of the body linear acceleration data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+62) FrequencyBodyAccelerationMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body linear acceleration data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+63) FrequencyBodyBodyAccelerationJerkMagnitude_mean
+
+  This value is the mean of the magnitude of the body linear acceleration jerk data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+64) FrequencyBodyBodyAccelerationJerkMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body linear acceleration jerk data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+65) FrequencyBodyBodyGyroscopeMagnitude_mean
+
+  This value is the mean of the magnitude of the body gyroscope data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+66) FrequencyBodyBodyGyroscopeMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body gyroscope data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+67) FrequencyBodyBodyGyroscopeJerkMagnitude_mean
+
+  This value is the mean of the magnitude of the body gyroscope jerk data in the frequency domain.
+  The number has been normalized to the range [-1,1].
+
+68) FrequencyBodyBodyGyroscopeJerkMagnitude_std
+
+  This value is the standard deviation of the magnitude of the body gyroscope jerk data in the frequency domain.
+  The number has been normalized to the range [-1,1].
